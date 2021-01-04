@@ -533,7 +533,7 @@ To get weights from Early Stopping Point:
 * `darknet.exe detector map data/obj.data yolo-obj.cfg backup\yolo-obj_8000.weights`
 * `darknet.exe detector map data/obj.data yolo-obj.cfg backup\yolo-obj_9000.weights`
 
-And comapre last output lines for each weights (7000, 8000, 9000):
+And compare last output lines for each weights (7000, 8000, 9000):
 
 Choose weights-file **with the highest mAP (mean average precision)** or IoU (intersect over union)
 
